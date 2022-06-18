@@ -27,7 +27,7 @@ body:not(.wysiwyg), /* wysiwyg is the textbox in the usertalk section, it's insi
 	background-color: var(--backgroundGreyColor) !important;
 }
 .roundbox {
-	border: 1px solid #000000 !important;
+	border: 1px solid #555 !important;
 	position: relative;
 }
 .roundbox .caption {
@@ -39,7 +39,7 @@ body:not(.wysiwyg), /* wysiwyg is the textbox in the usertalk section, it's insi
 }
 .roundbox .titled {
 	padding: 0 0 0.3em 0.5em;
-	border-bottom: 1px solid #000000 !important;
+	border-bottom: 1px solid #555 !important;
 }
 .roundbox .caption .top-links {
 	font-size: 1.1rem;
@@ -51,7 +51,7 @@ body:not(.wysiwyg), /* wysiwyg is the textbox in the usertalk section, it's insi
 .roundbox .bottom-links {
 	font-family: arial;
 	font-size: 1.1rem;
-	border-top: 1px solid #000000 !important;
+	border-top: 1px solid #555 !important;
 	background-color: #181818 !important;
 	padding: 0.45em;
 }
@@ -68,7 +68,7 @@ body:not(.wysiwyg), /* wysiwyg is the textbox in the usertalk section, it's insi
 }
 .roundbox .rtable td,
 .roundbox .rtable th {
-	border: 1px solid #000000 !important;
+	border: 1px solid #555 !important;
 	border-right: none;
 	border-top: none;
 	padding: 4px;
@@ -130,7 +130,7 @@ body:not(.wysiwyg), /* wysiwyg is the textbox in the usertalk section, it's insi
 }
 
 div.ttypography .bordertable thead th:not(:last-child) {
-	border-right-color: #000 !important;
+	border-right-color: #555 !important;
 }
 
 .search,
@@ -242,13 +242,13 @@ div.ttypography .tt,
 	border: none !important;
 }
 .roundbox {
-	border: 1px solid #000000 !important;
+	border: 1px solid #555 !important;
 	position: relative;
 }
 .datatable td,
 .datatable th {
-	border-top: 1px solid #000000 !important;
-	border-right: 1px solid #000000 !important;
+	border-top: 1px solid #555 !important;
+	border-right: 1px solid #555 !important;
 	padding: 0.4em;
 	font-size: 1.3rem;
 	text-align: center;
@@ -302,7 +302,7 @@ table tbody tr th a img[alt^='Sort'] {
 }
 .roundbox .rtable td,
 .roundbox .rtable th {
-	border: 1px solid #000000 !important;
+	border: 1px solid #555 !important;
 	border-right: none;
 	border-top: none;
 	padding: 4px;
