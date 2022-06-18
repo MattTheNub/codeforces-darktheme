@@ -7,9 +7,9 @@
 // @match        http://codeforces.com/*
 // @match        https://calendar.google.com/calendar/embed*
 // @match        https://www.facebook.com/v2.8/plugins/like.php*
-// @resource     desertCSS  https://github.com/LordLava/codeforces-darktheme/raw/master/desert.css
+// @resource     desertCSS  https://github.com/MattTheNub/codeforces-darktheme/raw/master/desert.css
 // @resource     monokaiEditorTheme https://raw.githubusercontent.com/ajaxorg/ace/master/lib/ace/theme/monokai.css
-// @resource     darkthemecss https://github.com/LordLava/codeforces-darktheme/raw/master/darktheme_darknutella.css
+// @resource     darkthemecss https://github.com/MattTheNub/codeforces-darktheme/raw/master/darktheme_darknutella.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @run-at       document-start
@@ -96,9 +96,9 @@ div.logo-plus-button {
 	(function fixLavaMenu() {
 		applyFuncWhenElmLoaded(".second-level-menu-list li.backLava", function (elm) {
 			elm.style.backgroundImage =
-				"url(https://github.com/LordLava/codeforces-darktheme/raw/master/imgs/lava-right2.png)";
+				"url(https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/lava-right2.png)";
 			elm.firstElementChild.style.backgroundImage =
-				"url(https://github.com/LordLava/codeforces-darktheme/raw/master/imgs/lava-left2.png)";
+				"url(https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/lava-left2.png)";
 		});
 	})();
 
@@ -144,7 +144,7 @@ div.logo-plus-button {
 
 	(function fixLogo() {
 		applyFuncWhenElmLoaded("#header > div:nth-child(1) > a > img", function (elm) {
-			 elm.src="https://github.com/LordLava/codeforces-darktheme/raw/master/imgs/logo.png";
+			 elm.src="https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/logo.png";
 		});
 	 })();
 
