@@ -643,3 +643,6 @@ div.diffHtmlTarget pre.prettyprint ins[style^='background:#80ff80'] .lit {
 	background: #333 !important;
 	border-color: #555 !important;
 }
+.problem-statement .test-example-line-even {
+	background-color: #222;
+}
