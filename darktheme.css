@@ -571,6 +571,13 @@ td.dark span[style^='color: #0000bb;'] {
 .datatable td.state a[href$='standings'] {
 	color: #8cc3f9 !important;
 }
+.problem-statement .test-example-line-even {
+    background-color: #2b2b2b !important;
+}
+.usertalks tr.unread td {
+    background-color: #2b2b2b !important;
+}
+
 
 /* gym pages */
 div.setting-name {
@@ -642,7 +649,4 @@ div.diffHtmlTarget pre.prettyprint ins[style^='background:#80ff80'] .lit {
 .pagination span.active {
 	background: #333 !important;
 	border-color: #555 !important;
-}
-.problem-statement .test-example-line-even {
-	background-color: #222;
 }
