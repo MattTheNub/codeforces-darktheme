@@ -8,7 +8,7 @@
 // @match        https://calendar.google.com/calendar/embed*
 // @match        https://www.facebook.com/v2.8/plugins/like.php*
 // @resource     desertCSS  https://github.com/MattTheNub/codeforces-darktheme/raw/master/desert.css
-// @resource     monokaiEditorTheme https://raw.githubusercontent.com/ajaxorg/ace/master/lib/ace/theme/monokai.css
+// @resource     monokaiEditorTheme https://raw.githubusercontent.com/ajaxorg/ace/ed5c3198f3fbe4698fbec8359c1725e5f5c88a65/lib/ace/theme/monokai.css
 // @resource     darkthemecss https://github.com/MattTheNub/codeforces-darktheme/raw/master/darktheme.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
