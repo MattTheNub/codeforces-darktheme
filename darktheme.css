@@ -652,3 +652,13 @@ div.diffHtmlTarget pre.prettyprint ins[style^='background:#80ff80'] .lit {
 	background: #333 !important;
 	border-color: #555 !important;
 }
+.SelectBox,
+.opt,
+.optWrapper {
+	background-color: var(--inputBoxBackgroundBorderColor) !important;
+	border-color: var(--inputBoxBackgroundBorderColor) !important;
+}
+
+.opt:hover {
+	background-color: #585858 !important;
+}
