@@ -161,8 +161,13 @@ div.logo-plus-button {
 		applyFuncWhenElmLoaded(
 			'#header > div:nth-child(1) > a > img',
 			function (elm) {
-				elm.src =
-					'https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/logo.png'
+				if (elm.src.includes('-ny.png')) {
+					elm.src =
+						'https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/logo-ny.png'
+				} else {
+					elm.src =
+						'https://github.com/MattTheNub/codeforces-darktheme/raw/master/imgs/logo.png'
+				}
 			},
 		)
 	})()
