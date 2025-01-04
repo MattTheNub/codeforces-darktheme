@@ -573,15 +573,14 @@ td.dark span[style^='color: #0000bb;'] {
 }
 
 .problem-statement .test-example-line-even {
-    background-color: #2b2b2b !important;
+	background-color: #2b2b2b !important;
 }
 .problem-statement .test-example-line-odd {
-    background-color: #333333 !important;
+	background-color: #333333 !important;
 }
 .usertalks tr.unread td {
-    background-color: #2b2b2b !important;
+	background-color: #2b2b2b !important;
 }
-
 
 /* gym pages */
 div.setting-name {
@@ -653,4 +652,9 @@ div.diffHtmlTarget pre.prettyprint ins[style^='background:#80ff80'] .lit {
 .pagination span.active {
 	background: #333 !important;
 	border-color: #555 !important;
+}
+
+.alert {
+	background-color: #4f0d00 !important;
+	border: 1px solid #5f1d10 !important;
 }

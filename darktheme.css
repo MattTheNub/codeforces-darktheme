@@ -662,3 +662,8 @@ div.diffHtmlTarget pre.prettyprint ins[style^='background:#80ff80'] .lit {
 .opt:hover {
 	background-color: #585858 !important;
 }
+
+.alert {
+	background-color: #4f0d00 !important;
+	border: 1px solid #5f1d10 !important;
+}
